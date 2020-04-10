@@ -45,7 +45,7 @@ app.delete("/api/notes/:id", function (req, res) {
     try {
         notesArray = fs.readFileSync("./db/db.json", "utf8");
         notesArray = JSON.parse(notesArray);
-        notesArray = notesArray.filter(function (note) {
+        notesArray = notesArray.filter( note => {
             return note.id != req.params.id;
         });
         notesArray = JSON.stringify(notesArray);
