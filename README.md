@@ -36,14 +36,12 @@ Show examples of usage:
 `app.listen(PORT, () => {console.log("App listening to PORT: " + PORT);});`
 
 ## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+List of features:
+* Write, save, and delete notes.
+* Express backend.
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Improve design.
 
 ## Status
 Project is: _in progress_
