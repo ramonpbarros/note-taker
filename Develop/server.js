@@ -9,17 +9,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "./public")));
 
-
 let notesArray = [];
 
-// app.get("/api/notes", (req, res) => {
-//     fs.readFile("./db/db.json", "utf8", function (error, data) {
-//         if (error) {
-//             throw error;
-//         }
-//         res.json(data);
-//     });
-// });
 app.get("/api/notes", (err, res) => {
     try {
         notesArray = fs.readFileSync("./db/db.json", "utf8");
@@ -38,9 +29,10 @@ app.post("/api/notes", (req, res) => {
         notesArray.push(req.body);
         notesArray = JSON.stringify(notesArray);
 
-        fs.writeFile("./db/db.json", notesArray, "utf8", function (err) {
-
-            if (err) throw err;
+        fs.writeFile("./db/db.json", notesArray, "utf8", (err) => {
+            if (err) {
+                throw err;
+            }
         });
         res.json(JSON.parse(notesArray));
 
@@ -68,7 +60,6 @@ app.delete("/api/notes/:id", function (req, res) {
 
     } catch (err) {
         throw err;
-
     }
 });
 
