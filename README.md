@@ -1,4 +1,5 @@
 # Note Taker
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/ramonpbarros/readme-generator)
 > Application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
 
 ## Table of contents
@@ -19,12 +20,16 @@ For users that need to keep track of a lot of information, it's easy to forget o
 ![Example screenshot](./img/notes.png)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* Node.js
+* Express
+* JavaScript
+* CSS 3
+* HTML 5
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+This application runs in the browser. Nothing needs to be installed except for your default browser.
+
+* Repository can be found here: [GitHub/ramonpbarros](https://github.com/ramonpbarros/note-taker) Make sure to git clone and check out the code!
 
 ## Code Examples
 Show examples of usage:
@@ -41,10 +46,11 @@ To-do list:
 * Wow improvement to be done 2
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is: _in progress_
+* 
 
 ## Inspiration
-Add here credits. Project inspired by..., based on...
+Project inspired by UCSD Coding Bootcamp, based on second month of course, applying Node.js, Express and JavaScript skills.
 
 ## Contact
 Created by [@ramonpbarros](https://ramonpbarros.github.io/) - feel free to contact me!
