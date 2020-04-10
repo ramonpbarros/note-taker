@@ -47,7 +47,7 @@ To-do list:
 
 ## Status
 Project is: _in progress_
-* 
+* Make sure to check the application [here](https://vast-ridge-01378.herokuapp.com/).
 
 ## Inspiration
 Project inspired by UCSD Coding Bootcamp, based on second month of course, applying Node.js, Express and JavaScript skills.
