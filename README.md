@@ -1,5 +1,5 @@
 # Note Taker
-> Here goes your awesome project description!
+> Application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
 
 ## Table of contents
 * [General info](#general-info)
@@ -15,7 +15,8 @@
 For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./img/index.png)
+![Example screenshot](./img/notes.png)
 
 ## Technologies
 * Tech 1 - version 1.0
@@ -27,7 +28,7 @@ Describe how to install / setup your local environement / add link to demo versi
 
 ## Code Examples
 Show examples of usage:
-`put-your-code-here`
+`app.listen(PORT, () => {console.log("App listening to PORT: " + PORT);});`
 
 ## Features
 List of features ready and TODOs for future development
